@@ -33,6 +33,7 @@ export const homeObjOne = {
     start: 'true'
   };
   
+  // home
   export const homeObjThree = {
     primary: true,
     lightBg: false,
