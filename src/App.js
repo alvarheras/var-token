@@ -8,7 +8,6 @@ import Products from './pages/Products/Products';
 import SignUp from './pages/SignUp/SignUp';
 import ScrollToTop from './components/ScrollToTop';
 import Marquee from './components/Marquee';
-import Marquee2 from './components/Marquee2';
 
 
 function App() {

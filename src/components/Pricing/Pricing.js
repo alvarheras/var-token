@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from '../../globalStyles';
-import { GiCrystalBars, GiCutDiamond, GiRock  } from 'react-icons/gi';
-import { GiSoccerBall, GiChalkOutlineMurder } from 'react-icons/gi';
-
+import { GiSoccerBall, GiChalkOutlineMurder, GiRock } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import {
   PricingSection,
   PricingWrapper,
@@ -25,25 +22,6 @@ const TOTAL_TOKENS = 112100000; // Total inicial de tokens
 
 const Pricing = () => {
   const [tokensBurned, setTokensBurned] = useState(0);
-
-/*   useEffect(() => {
-    const fetchTokenBalance = async () => {
-      try {
-        const response = await fetch('https://solana-api.projectserum.com/tokenBalance/1nc1nerator11111111111111111111111111111111');
-        const data = await response.json();
-        console.log(data);
-        const tokensBurned = data.value.uiAmount;
-        setTokensBurned(tokensBurned);
-      } catch (error) {
-        console.error('Error fetching token balance:', error);
-      }
-    };
-
-    fetchTokenBalance();
-    const interval = setInterval(fetchTokenBalance, 60000); // Actualiza cada minuto
-
-    return () => clearInterval(interval);
-  }, []); */
 
   const burnPercentage = (tokensBurned / TOTAL_TOKENS) * 100;
 
