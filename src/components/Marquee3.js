@@ -17,6 +17,8 @@ const MarqueeContainer = styled.div`
   color: #a9b3c1;
   padding: 13px 0; /* Add some padding for more space around the text */
   margin-bottom: 0px;
+  padding-bottom:25px;
+  padding-top:30px;
 `;
 
 const MarqueeText = styled.div`
