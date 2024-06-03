@@ -26,7 +26,7 @@ const TOTAL_TOKENS = 112100000; // Total inicial de tokens
 const Pricing = () => {
   const [tokensBurned, setTokensBurned] = useState(0);
 
-  useEffect(() => {
+/*   useEffect(() => {
     const fetchTokenBalance = async () => {
       try {
         const response = await fetch('https://solana-api.projectserum.com/tokenBalance/1nc1nerator11111111111111111111111111111111');
@@ -43,7 +43,7 @@ const Pricing = () => {
     const interval = setInterval(fetchTokenBalance, 60000); // Actualiza cada minuto
 
     return () => clearInterval(interval);
-  }, []);
+  }, []); */
 
   const burnPercentage = (tokensBurned / TOTAL_TOKENS) * 100;
 
