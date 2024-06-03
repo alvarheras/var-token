@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const PricingSection = styled.div`
-  padding: 30px 0 160px;
+  padding: 40px 0 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;

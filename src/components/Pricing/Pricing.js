@@ -53,8 +53,8 @@ const Pricing = () => {
         <PricingWrapper>
           <PricingHeading>$VAR BURN SYSTEM</PricingHeading>
           <PricingDescription>
-  The development wallet (<a href="https://solscan.io/account/DTBtwoQHgySa4yhvEoxvyUqHNdP4wEEZj9RzKw14aoBN" target="_blank" rel="noopener noreferrer">DTBtwoQHgySa4yhvEoxvyUqHNdP4wEEZj9RzKw14aoBN</a>) will be used for the burn mechanism, giveaways, match predictions, and more. Experience the excitement of the Euro Cup and Copa America with $VAR!
-</PricingDescription>
+            The development wallet (<a href="https://solscan.io/account/DTBtwoQHgySa4yhvEoxvyUqHNdP4wEEZj9RzKw14aoBN" target="_blank" rel="noopener noreferrer">DTBtwoQHgySa4yhvEoxvyUqHNdP4wEEZj9RzKw14aoBN</a>) will be used for the burn mechanism, giveaways, match predictions, and more. Experience the excitement of the Euro Cup and Copa America with $VAR!
+          </PricingDescription>
 {/*           <div style={{ width: '100%', margin: '20px 0' }}>
             <ProgressBar now={burnPercentage} label={`${burnPercentage.toFixed(2)}%`} />
           </div> */}
@@ -65,10 +65,10 @@ const Pricing = () => {
                   <GiSoccerBall />
                 </PricingCardIcon>
                 <PricingCardPlan>Goal Review</PricingCardPlan>
-                <PricingCardCost>10 VAR</PricingCardCost>
+                <PricingCardCost>1M VAR</PricingCardCost>
                 <PricingCardLength>per goal review</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>10 VAR tokens burned</PricingCardFeature>
+                  <PricingCardFeature>1M VAR tokens burned</PricingCardFeature>
                   <PricingCardFeature>Includes Euro Cup & Copa America</PricingCardFeature>
                   <PricingCardFeature>Ensures fair play</PricingCardFeature>
                 </PricingCardFeatures>
@@ -80,10 +80,10 @@ const Pricing = () => {
                   <GiChalkOutlineMurder />
                 </PricingCardIcon>
                 <PricingCardPlan>Penalty Review</PricingCardPlan>
-                <PricingCardCost>15 VAR</PricingCardCost>
+                <PricingCardCost>500K VAR</PricingCardCost>
                 <PricingCardLength>per penalty review</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>15 VAR tokens burned</PricingCardFeature>
+                  <PricingCardFeature>500K tokens burned</PricingCardFeature>
                   <PricingCardFeature>Includes Euro Cup & Copa America</PricingCardFeature>
                   <PricingCardFeature>Enhances match integrity</PricingCardFeature>
                 </PricingCardFeatures>
@@ -95,10 +95,10 @@ const Pricing = () => {
                   <GiRock />
                 </PricingCardIcon>
                 <PricingCardPlan>Offside Review</PricingCardPlan>
-                <PricingCardCost>20 VAR</PricingCardCost>
+                <PricingCardCost>250k VAR</PricingCardCost>
                 <PricingCardLength>per offside review</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>20 VAR tokens burned</PricingCardFeature>
+                  <PricingCardFeature>250k VAR tokens burned</PricingCardFeature>
                   <PricingCardFeature>Includes Euro Cup & Copa America</PricingCardFeature>
                   <PricingCardFeature>Keeps the game fair</PricingCardFeature>
                 </PricingCardFeatures>

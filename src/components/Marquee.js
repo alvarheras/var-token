@@ -42,7 +42,7 @@ const Marquee = () => {
     <MarqueeContainer>
         <MarqueeText>
 {/*             <Logo src={realLogo} alt="Real Madrid Logo" />
- */}            $VAR will be burned during every event of the Euro Cup and Copa America. Be part of this historic journey as we revolutionize football with crypto!        </MarqueeText>
+ */}           $VAR IGNITES THE FIELD WITH ITS INNOVATIVE BURNING MECHANISM THROUGHOUT EVERY MATCH OF THE EURO CUP AND COPA AMERICA.       </MarqueeText>
     </MarqueeContainer>
   );
 };

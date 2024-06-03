@@ -51,10 +51,10 @@ function Footer() {
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='https://x.com/vartokenonsol' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Telegram'>
+            <SocialIconLink href='https://t.me/varportaltoken' target='_blank' aria-label='Telegram'>
               <FaTelegram />
             </SocialIconLink>
           </SocialIcons>
